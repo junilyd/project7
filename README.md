@@ -6,7 +6,7 @@ There is a directory for the article.
 They both contain a Makefile for compiling. Therefore type "make" to compile from inside each folder, respectively.
 
 The following is some useful commands for getting started with using Git:
-
+------
 git checkout https://github.com/junilyd/project7.git
 
 git status
