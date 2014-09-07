@@ -1,0 +1,49 @@
+% vim: nospell
+\input set/preamble.tex
+\input set/macros.tex
+\input set/listings.tex
+
+\begin{document}
+
+% Frontmatter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}
+\pagestyle{empty}
+\input sec/etc/frontpage
+\input sec/etc/titlepage
+\pagestyle{fancy}
+\setcounter{page}{1}
+% \pagenumbering{roman}
+\input sec/etc/preface
+\tableofcontents
+\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+
+% Main %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{Worksheet}
+    \chapter{Introduction} \label{cha:introduction}
+        \input sec/int/matlabtikz.tex
+
+    % Adjust appendix debth in TOC. 
+    % NOTE: This makes list-of-fixmes unusable.
+    % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}  
+
+    \bibliographystyle{alpha}
+    \bibliography{bib/sources}
+    \addcontentsline{toc}{chapter}{Bibliography}
+
+    \chapter*{Appendix CD}
+        \addcontentsline{toc}{chapter}{Appendix CD}
+     %   \section{Karls Section of examples}
+        THIS IS an example with caps lock on. See i.e. Section \ref{cha:introduction}
+        \begin{equation}
+          \frac{2}{6}
+        \end{equation} 
+        \label{exampleofequation}
+
+    See the fraction in Eq. \ref{exampleofequation}
+   
+        % \input sec/etc/appendix_cd.tex
+    \listoffixmes
+\end{document}
