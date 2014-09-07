@@ -3,7 +3,9 @@ project7 - Group Repository
 
 There is a directory for the worksheets which is build as a normal report.
 There is a directory for the article.
-They both contain a Makefile for compiling. Therefore type "make" to compile from inside each folder, respectively.
+They both contain a Makefile for compiling. 
+
+Therefore type "make" to compile from inside each folder, respectively.
 
 The following is some useful commands for getting started with using Git:
 ------
