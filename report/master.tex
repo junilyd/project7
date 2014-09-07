@@ -12,7 +12,6 @@
 \input sec/etc/titlepage
 \pagestyle{fancy}
 \setcounter{page}{1}
-% \pagenumbering{roman}
 \input sec/etc/preface
 \tableofcontents
 \cleardoublepage
@@ -20,14 +19,31 @@
 \pagenumbering{arabic}
 
 
-% Main %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% Main Inputs %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \part{Worksheet}
     \chapter{Introduction} \label{cha:introduction}
-        \input sec/int/matlabtikz.tex
+    \chapter{Preliminary Analysis} \label{cha:preliminary_analysis}
+    \chapter{Division of System into System Modules}
+    \chapter{Interim Conclusion}
+    \chapter{Requirements Specification} \label{cha:requirements}
+    \chapter{Test Specification}
+    
+\part{Design}
+\part{Implementation}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%% Bibliography and qppendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     % Adjust appendix debth in TOC. 
     % NOTE: This makes list-of-fixmes unusable.
-    % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}  
+    % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} 
 
     \bibliographystyle{alpha}
     \bibliography{bib/sources}
@@ -35,15 +51,6 @@
 
     \chapter*{Appendix CD}
         \addcontentsline{toc}{chapter}{Appendix CD}
-     %   \section{Karls Section of examples}
-        THIS IS an example with caps lock on. See i.e. Section \ref{cha:introduction}
-        \begin{equation}
-          \frac{2}{6}
-        \end{equation} 
-        \label{exampleofequation}
-
-    See the fraction in Eq. \ref{exampleofequation}
-   
         % \input sec/etc/appendix_cd.tex
     \listoffixmes
 \end{document}
