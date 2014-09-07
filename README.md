@@ -1,7 +1,7 @@
 project7 - Group Repository
 ========
 
-git checkout URL
+git checkout https://github.com/junilyd/project7.git
 
 git status
 
