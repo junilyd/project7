@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  7 SEP 2014 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  7 SEP 2014 10:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2168,30 +2168,43 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.30002pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
  <img/jacobm.jpg, id=54, 3276.24pt x 2457.18pt>
 File: img/jacobm.jpg Graphic file (type jpg)
 
 <use img/jacobm.jpg>
-Package pdftex.def Info: img/jacobm.jpg used on input line 72.
+Package pdftex.def Info: img/jacobm.jpg used on input line 69.
+(pdftex.def)             Requested size: 56.9055pt x 40.00664pt.
+File: img/jacobm.jpg Graphic file (type jpg)
+ <use img/jacobm.jpg>
+Package pdftex.def Info: img/jacobm.jpg used on input line 69.
+(pdftex.def)             Requested size: 56.9055pt x 40.00664pt.
+File: img/jacobm.jpg Graphic file (type jpg)
+ <use img/jacobm.jpg>
+Package pdftex.def Info: img/jacobm.jpg used on input line 69.
+(pdftex.def)             Requested size: 56.9055pt x 40.00664pt.
+File: img/jacobm.jpg Graphic file (type jpg)
+
+<use img/jacobm.jpg>
+Package pdftex.def Info: img/jacobm.jpg used on input line 69.
 (pdftex.def)             Requested size: 56.9055pt x 40.00664pt.
 
-Overfull \hbox (11.96603pt too wide) in paragraph at lines 72--72
-[][] 
+Overfull \hbox (11.96603pt too wide) in paragraph at lines 69--69
+[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 
  []
 
 (./sec/etc/synopsis.tex)
-Overfull \hbox (4.67499pt too wide) in paragraph at lines 83--83
+Overfull \hbox (4.67499pt too wide) in paragraph at lines 80--80
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--85
+Underfull \hbox (badness 10000) in paragraph at lines 14--82
 
  []
 
@@ -2221,7 +2234,7 @@ line 20.
 Package FiXme Warning: \fixme is deprecated;
 (FiXme)                please use \fxfatal instead on input line 20.
 
-<img/folder.pdf, id=86, 51.392pt x 51.392pt>
+<img/folder.pdf, id=92, 51.392pt x 51.392pt>
 File: img/folder.pdf Graphic file (type pdf)
  <use img/folder.pdf>
 Package pdftex.def Info: img/folder.pdf used on input line 20.
@@ -2327,7 +2340,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
 Here is how much of TeX's memory you used:
  48831 strings out of 493108
  1151220 string characters out of 6134847
- 1393493 words of memory out of 5000000
+ 1395493 words of memory out of 5000000
  51426 multiletter control sequences out of 15000+600000
  80074 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2340,10 +2353,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on master.pdf (16 pages, 1791532 bytes).
+Output written on master.pdf (16 pages, 1792365 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
  29 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
