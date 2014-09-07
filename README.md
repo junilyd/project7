@@ -9,7 +9,7 @@ Therefore type "make" to compile from inside each folder, respectively.
 
 The following is some useful commands for getting started with using Git:
 ------
-first, install git.
+first, install git, create an account on github.com and send your username to Jacob Møller .
 
 git clone https://github.com/junilyd/project7.git
 
