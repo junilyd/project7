@@ -5,7 +5,7 @@ git checkout https://github.com/junilyd/project7.git
 
 git status
 
-git add
+git add <file-or-folder>
 
 git pull origin master
 
