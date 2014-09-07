@@ -1,7 +1,7 @@
-project7
+project7 - Group Repository
 ========
 
-Group Repository
+git checkout URL
 
 git status
 
