@@ -1,0 +1,66 @@
+% This file was created by matlab2tikz v0.4.7 running on MATLAB 8.1.
+% Copyright (c) 2008--2014, Nico Schlömer <nico.schloemer@gmail.com>
+% All rights reserved.
+% Minimal pgfplots version: 1.3
+% 
+% The latest updates can be retrieved from
+%   http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz
+% where you can also make suggestions and rate matlab2tikz.
+% 
+\begin{tikzpicture}
+
+\begin{axis}[%
+xmin=-20,
+xmax=20,
+xlabel={y-axis},
+ymin=0,
+ymax=100,
+ylabel={f(0,y)},
+title={$\text{Hyperboloid f(x,y) = (y}^\text{2}\text{/2}^\text{2}\text{-x}^\text{2}\text{/a}^\text{2}\text{), for x=0}$}
+]
+\addplot [color=blue,solid,forget plot]
+  table[row sep=crcr]{%
+-20	100\\
+-19	90.25\\
+-18	81\\
+-17	72.25\\
+-16	64\\
+-15	56.25\\
+-14	49\\
+-13	42.25\\
+-12	36\\
+-11	30.25\\
+-10	25\\
+-9	20.25\\
+-8	16\\
+-7	12.25\\
+-6	9\\
+-5	6.25\\
+-4	4\\
+-3	2.25\\
+-2	1\\
+-1	0.25\\
+0	0\\
+1	0.25\\
+2	1\\
+3	2.25\\
+4	4\\
+5	6.25\\
+6	9\\
+7	12.25\\
+8	16\\
+9	20.25\\
+10	25\\
+11	30.25\\
+12	36\\
+13	42.25\\
+14	49\\
+15	56.25\\
+16	64\\
+17	72.25\\
+18	81\\
+19	90.25\\
+20	100\\
+};
+\end{axis}
+\end{tikzpicture}%

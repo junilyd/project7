@@ -1,0 +1,21 @@
+\subsubsection{Math}
+\label{sec:math}
+The handling of math will be tested by applying a random example in the following.
+Consider the linear combination $\veca'=\rowvec{1}{0}{\cdots}{0}$, Since
+\begin{equation}
+    \veca'\vecX = \rowvec{1}{0}{\cdots}{0}\colvec{X_1}{X_2 }{\vdots}{X_4} = X_1
+\end{equation}
+and
+\begin{equation}
+    \veca'\vecmu = \rowvec{1}{0}{\cdots}{0}\colvec{\mu_1}{\mu_2 }{\vdots}{\mu_4} = \mu_1
+\end{equation}
+\begin{equation}
+    \veca'\mtrxsigma\veca = \rowvec{1}{0}{\cdots}{0}
+    \begin{bmatrix}
+        \sigma_{1n} & \sigma_{2n} & \cdots & \sigma_{n} \\
+        \sigma_{12} & \sigma_{22} & \cdots & \sigma_{2n} \\
+        \cdots & \cdots & \ddots & \cdots \\
+        \sigma_{1n} & \sigma_{2n} & \cdots & \sigma_{n} \\
+    \end{bmatrix}
+    \colvec{\mu_1}{\mu_2 }{\vdots}{\mu_4} = \sigma_{11}
+\end{equation}

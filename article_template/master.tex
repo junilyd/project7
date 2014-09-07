@@ -1,0 +1,80 @@
+\input set/preamble.tex
+\input set/macros.tex 
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+% Do not put math or special symbols in the title.
+\title{Template for M.Sc. 1\ts{st} Semester Paper}
+
+
+%% -------------------------------------------------------------
+%% author names and affiliations
+%%-------------------------------------------------------------
+\author{\IEEEauthorblockN{Jacob Møller\IEEEauthorrefmark{2},
+No One\IEEEauthorrefmark{3},
+}
+\IEEEauthorblockA{\IEEEauthorrefmark{2}Aalborg University, Sound and Music Computing, Dept. of Arch., Design \& Media Tech., \url{jmhh09@student.aau.dk}}
+\IEEEauthorblockA{\IEEEauthorrefmark{3}No where, No Where Land.}
+% \thanks{Manuscript received December 1, 2012; revised December 27, 2012. 
+% Corresponding author: M. Shell (email: http://www.michaelshell.org/contact.html).}
+}
+
+
+%% -------------------------------------------------------
+%%                The Paper Headers
+%%-------------------------------------------------------
+% \markboth{Journal of \LaTeX\ Class Files,~Vol.~11, No.~4, December~2012}%
+% {Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+
+%%---------------------------------------------------------------------
+%%                          INPUTS 
+%%---------------------------------------------------------------------
+\input main/abstract.tex
+
+\maketitle% Extra Space
+\IEEEdisplaynontitleabstractindextext
+\ifCLASSOPTIONpeerreview
+\begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+\fi
+\IEEEpeerreviewmaketitle
+
+\input main/introduction.tex
+
+
+\input main/content.tex
+
+% \input sec/matlabtikz.tex
+
+\input main/Conclusion.tex
+
+\input main/appendix.tex
+
+\input main/acknowledgment.tex
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+\bibliographystyle{bibtex/IEEEtran} % bst-file
+% argument is your BibTeX string definitions and bibliography database(s)
+\bibliography{bibtex/IEEEabrv,bibtex/sources}% IEEEabrv and bib-file
+
+% biography section
+% 
+\input main/biographies.tex
+
+\end{document}
+
+

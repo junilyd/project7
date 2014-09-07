@@ -1,0 +1,19 @@
+\subsection{File Structure}
+Since the template is divided into sub-files, these serves the following purpose. The root directory contains a Makefile, master file and two MATLAB test files. The master file contains all inputs to paper and also the ``Title'' and ``Author'' definitions, directly. The root dir also contains the following directories.
+%
+\input img/Graph_Plot.tex
+\subsubsection{Main Directory}
+\label{sec:maindir}
+The directory \texttt{main} has been created to maintain the structure of a standardized paper. It contains the main files which are defined as inputs in the master file \texttt{master.tex}. This way it should be an easy ``starter'' for initializing the project and one can decide whether to input into these files or directly into the master file, when adding content.
+%
+\subsubsection{Set Directory}
+\label{sec:setdir}
+The directory \texttt{set} contains a macro-file and the preamble. The macro file contains the desired syntactic changes to make things easier along the path of writing this paper. This IEEEtran-template\cite{IEEEhowto:IEEEtranpage} can be used for several different types of IEEE-papers, this can be changed by setting the document class in the preamble. The greatest change in the preamble has been implementing \texttt{Tikz}, and defining a \texttt{pgfplotssetup} for matching the template.
+%
+\subsubsection{Bibtex Directory}
+\label{sec:bibtexdir}
+The \texttt{bibtex} directory contains the necessary files for citations. The \texttt{sources.bib} is the place to add new litterature sources. Note that it might be necessary to run ``make clean'' followed by ``bibtex master.tex'' a few times, if it is not compiling as expected.
+%
+\subsubsection{Img Directory}
+\label{sec:imgdir}
+The \texttt{img} directory contains all figures. The figure format are defined in the preamble, from line 30. This is also the directory where Tikz-files are placed. Each Tikz-file is usually followed by a tex-wrapper with a similar name. This allows for simply applying an input of the wrapper into a file, when inserting a figure into the paper. This process is also automated by utilizing \texttt{matlab2tikz.m}. This is further elaborated in \cref{sec:figures}. This directory contains another directory called \texttt{tikz} this is used as a ``cache'' for pre-compiled tikz figures, in order to reduce compile time. This makes it necessary to remove the \texttt{img/tikz/*} content in order to insert/compile new tikz figures.

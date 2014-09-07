@@ -1,0 +1,178 @@
+\documentclass[journal,trans]{IEEEtran}
+\usepackage[utf8]{inputenc}
+%-----------------------------------------------
+%                 A
+%                 |
+%                 |
+%%         ORIGINAL CONTENT                 
+%%
+%-----------------------------------------------
+% ADDITIONAL CONTENT (not in IEEEtran template)
+%-----------------------------------------------
+\usepackage{xfrac}
+\usepackage[font=footnotesize,justification=justified,singlelinecheck=false, labelfont=bf]{caption} %% THIS SETUP IS NOT IEEE STANDARD
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{bm}
+\usepackage{cleveref}
+\usepackage{listings}
+%-----------------------------------------------
+%         ORIGINAL CONTENT
+%                 |
+%                 |
+%                 V
+%
+% *** CITATION PACKAGES ***
+%
+\usepackage{cite}
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+\usepackage{graphicx}% removed [pdftex], due to clash with tikz
+  \graphicspath{{img/}{img/tikz/}}
+  \DeclareGraphicsExtensions{.pdf,.jpg,.jpeg,.png,.tikz}
+\else
+  \usepackage[dvips]{graphicx}
+  \graphicspath{{img/}}
+  \DeclareGraphicsExtensions{.eps}
+\fi
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+\usepackage{algorithmic}
+
+% *** ALIGNMENT PACKAGES ***
+%
+\usepackage{array}
+
+% *** SUBFIGURE PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+ \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\else
+ \usepackage[caption=false,font=footnotesize]{subfig}
+\fi
+
+% *** FLOAT PACKAGES ***
+%
+% \usepackage{fixltx2e}
+% \usepackage{stfloats}
+% Do not attempt to use stfloats with fixltx2e as they are incompatible.
+% Instead, use Morten Hogholm'a dblfloatfix which combines the features
+% of both fixltx2e and stfloats:
+%
+\usepackage{dblfloatfix}
+
+% List of Figures at the end, if invoked
+\ifCLASSOPTIONcaptionsoff
+ \usepackage[nomarkers]{endfloat}
+\let\MYoriglatexcaption\caption
+\renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
+\fi
+% Some IEEE journals/societies require that
+% submissions have lists of figures/tables at the end of the paper and that
+% figures/tables without any captions are placed on a page by themselves at
+% the end of the document. If needed, the draftcls IEEEtran class option or
+% \CLASSINPUTbaselinestretch interface can be used to increase the line
+% spacing as well. Be sure and use the nomarkers option of endfloat to
+% prevent endfloat from "marking" where the figures would have been placed
+% in the text.
+% the subcaptions:
+% For subfig.sty:
+% \let\MYorigsubfloat\subfloat
+% \renewcommand{\subfloat}[2][\relax]{\MYorigsubfloat[]{#2}}
+% However, the above trick will not work if both optional arguments of
+% the \subfloat command are used. Furthermore, there needs to be a
+% description of each subfigure *somewhere* and endfloat does not add
+% subfigure captions to its list of figures. Thus, the best approach is to
+% avoid the use of subfigure captions (many IEEE journals avoid them anyway)
+% and instead reference/explain all the subfigures within the main caption.
+% The latest version of endfloat.sty and its documentation can obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/endfloat/
+%
+% The IEEEtran \ifCLASSOPTIONcaptionsoff conditional can also be used
+% later in the document, say, to conditionally put the References on a 
+% page by themselves.
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{hyperref} % IEEEtran had url, which cant do underscores in url.
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+%-----------------------------------------------
+%                 A
+%                 |
+%                 |
+%%         ORIGINAL CONTENT                 
+%%
+%----------------------------------------------------
+% ADDITIONAL CONTENT SETUP FOR PGFPLOTS and TikZ
+%----------------------------------------------------
+\usetikzlibrary{shapes,arrows,positioning,patterns,decorations.markings,decorations.pathmorphing}
+\usetikzlibrary{external} 
+\tikzexternalize[prefix=img/tikz/]
+\tikzset{
+    >=latex,
+    font=\footnotesize,
+}
+\pgfplotsset{
+    compat=newest,
+    every axis plot/.append style = {
+        very thick,
+    },
+    every axis legend/.append style={
+        font={\scriptsize},
+    },
+    every axis title/.append style={
+        font={\small},
+    },
+    every axis/.append style={
+        legend style={draw=none},
+        legend cell align=left,
+        axis x line=bottom,
+        axis y line=left,
+        scaled ticks=false,
+        at={(0.8,1)},
+        % xticklabel = \pgfmathparse{\tick*1}\sisetup{scientific-notation = engineering}\num{\pgfmathresult},
+        % yticklabel = \pgfmathparse{\tick*1}\sisetup{scientific-notation = engineering}\num{\pgfmathresult},
+        width=9cm,
+        height=4cm,
+        axis line style=-latex,
+        tick scale binop=\times,
+        /pgf/number format/.cd,
+        set thousands separator={}],
+        set decimal separator={,},
+    },
+    every axis x label/.style={
+        at={(ticklabel* cs:0.5)},
+        anchor=east,
+        below=0.15,
+    },
+    every axis y label/.style={
+        at={(ticklabel* cs:1.00)},
+        anchor=north,
+        above=0.05,
+    },
+    every axis z label/.style={
+        at={(ticklabel* cs:1.00)},
+        anchor=south,
+    },
+}
+
