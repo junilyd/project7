@@ -9,6 +9,8 @@ Therefore type "make" to compile from inside each folder, respectively.
 
 The following is some useful commands for getting started with using Git:
 ------
+first, install git.
+
 git checkout https://github.com/junilyd/project7.git
 
 git status
