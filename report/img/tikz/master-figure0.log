@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  23 AUG 2014 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  8 SEP 2014 20:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -709,90 +709,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \sf@bottom=\skip64
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/mathptmx.sty
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/courier.sty
-Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip65
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen167
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count154
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count155
-\leftroot@=\count156
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count157
-\DOTSCASE@=\count158
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-\big@size=\dimen168
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count159
-\c@MaxMatrixCols=\count160
-\dotsspace@=\muskip16
-\c@parentequation=\count161
-\dspbrk@lvl=\count162
-\tag@help=\toks25
-\row@=\count163
-\column@=\count164
-\maxfields@=\count165
-\andhelp@=\toks26
-\eqnshift@=\dimen169
-\alignsep@=\dimen170
-\tagshift@=\dimen171
-\tagwidth@=\dimen172
-\totwidth@=\dimen173
-\lineht@=\dimen174
-\@envbody=\toks27
-\multlinegap=\skip66
-\multlinetaggap=\skip67
-\mathdisplay@stack=\toks28
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty (/us
 r/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -951,24 +869,24 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 y
 Package: xtemplate 2014/07/20 v5241 L3 Experimental prototype document function
 s
-\l__xtemplate_tmp_dim=\dimen175
-\l__xtemplate_tmp_int=\count166
-\l__xtemplate_tmp_muskip=\muskip17
-\l__xtemplate_tmp_skip=\skip68
+\l__xtemplate_tmp_dim=\dimen167
+\l__xtemplate_tmp_int=\count154
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip65
 Variant \prop_get:NoNTF already defined; not changing it on line 106
 Variant \prop_get:NoNT already defined; not changing it on line 107
 Variant \prop_get:NoNF already defined; not changing it on line 108
 )
 Package: xfrac 2014/05/04 v4728 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box53
-\l__xfrac_tmp_box=\box54
-\l__xfrac_denominator_bot_sep_dim=\dimen176
-\l__xfrac_numerator_bot_sep_dim=\dimen177
-\l__xfrac_numerator_top_sep_dim=\dimen178
-\l__xfrac_slash_left_sep_dim=\dimen179
-\l__xfrac_slash_right_sep_dim=\dimen180
-\l__xfrac_slash_left_muskip=\muskip18
-\l__xfrac_slash_right_muskip=\muskip19
+\l__xfrac_slash_box=\box51
+\l__xfrac_tmp_box=\box52
+\l__xfrac_denominator_bot_sep_dim=\dimen168
+\l__xfrac_numerator_bot_sep_dim=\dimen169
+\l__xfrac_numerator_top_sep_dim=\dimen170
+\l__xfrac_slash_left_sep_dim=\dimen171
+\l__xfrac_slash_right_sep_dim=\dimen172
+\l__xfrac_slash_left_muskip=\muskip17
+\l__xfrac_slash_right_muskip=\muskip18
 .................................................
 . xtemplate info: "declare-object-type"
 . 
@@ -981,61 +899,105 @@ Package: xfrac 2014/05/04 v4728 L3 Experimental split-level fractions
 .................................................
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
 LaTeX Info: Redefining \bm on input line 203.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count167
-\c@ALC@line=\count168
-\c@ALC@rem=\count169
-\c@ALC@depth=\count170
-\ALC@tlm=\skip69
-\algorithmicindent=\skip70
+\c@ALC@unique=\count155
+\c@ALC@line=\count156
+\c@ALC@rem=\count157
+\c@ALC@depth=\count158
+\ALC@tlm=\skip66
+\algorithmicindent=\skip67
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count171
-\float@exts=\toks29
-\float@box=\box55
-\@float@everytoks=\toks30
-\@floatcapt=\box56
+\c@float@type=\count159
+\float@exts=\toks25
+\float@box=\box53
+\@float@everytoks=\toks26
+\@floatcapt=\box54
 )
-\@float@every@algorithm=\toks31
-\c@algorithm=\count172
+\@float@every@algorithm=\toks27
+\c@algorithm=\count160
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/aurical/aurical.sty
 Package: aurical 2006/10/12 aurical - a set of three decorative fonts with acce
 nts
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen181
-\lightrulewidth=\dimen182
-\cmidrulewidth=\dimen183
-\belowrulesep=\dimen184
-\belowbottomsep=\dimen185
-\aboverulesep=\dimen186
-\abovetopsep=\dimen187
-\cmidrulesep=\dimen188
-\cmidrulekern=\dimen189
-\defaultaddspace=\dimen190
-\@cmidla=\count173
-\@cmidlb=\count174
-\@aboverulesep=\dimen191
-\@belowrulesep=\dimen192
-\@thisruleclass=\count175
-\@lastruleclass=\count176
-\@thisrulewidth=\dimen193
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/commath/commath.sty) (/usr/loca
-l/texlive/2014/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2
-014/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count161
+\@cmidlb=\count162
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count163
+\@lastruleclass=\count164
+\@thisrulewidth=\dimen185
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/commath/commath.sty (/usr/local
+/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip68
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 39.
+\pmbraise@=\dimen186
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count165
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count166
+\leftroot@=\count167
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count168
+\DOTSCASE@=\count169
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen187
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count170
+\c@MaxMatrixCols=\count171
+\dotsspace@=\muskip19
+\c@parentequation=\count172
+\dspbrk@lvl=\count173
+\tag@help=\toks28
+\row@=\count174
+\column@=\count175
+\maxfields@=\count176
+\andhelp@=\toks29
+\eqnshift@=\dimen188
+\alignsep@=\dimen189
+\tagshift@=\dimen190
+\tagwidth@=\dimen191
+\totwidth@=\dimen192
+\lineht@=\dimen193
+\@envbody=\toks30
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/lo
+cal/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2014/08/04 v1.11 Data Visualization (1.11-3-g4c99d7a)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/
 local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texl
@@ -1632,7 +1594,7 @@ Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
-\symwasy=\mathgroup8
+\symwasy=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/pageslts/pageslts.sty
@@ -1784,18 +1746,18 @@ No auxiliary output files.
 \w@pgfexternal@auxout=\write4
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 107.
+(hyperref)                setting the option has no effect on input line 106.
 
-Package hyperref Info: Option `plainpages' set `false' on input line 107.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 107.
+Package hyperref Info: Option `plainpages' set `false' on input line 106.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 106.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+Package hyperref Info: Option `colorlinks' set `true' on input line 106.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
 No memoir class: memhfixc does nothing
 )
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 120.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 119.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count315
@@ -1855,7 +1817,7 @@ live/2014/texmf-dist/tex/latex/circuitikz/pgfcirclabel.sty) (/usr/local/texlive
 \pgf@circ@res@other=\dimen346
 \pgf@circ@res@step=\dimen347
 \pgfstartlinewidth=\dimen348
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/cleveref/cleveref.sty
+))) (/usr/local/texlive/2014/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2230.
 LaTeX Info: Redefining \cref on input line 2230.
@@ -1870,7 +1832,7 @@ LaTeX Info: Redefining \labelcref on input line 2230.
 LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package cleveref Info: `listings' support loaded on input line 2950.
 Package cleveref Info: `subfig' support loaded on input line 2983.
-)) (./set/macros.tex
+) (./set/macros.tex
 \c@reqcount=\count321
 ) (./set/listings.tex (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/ls
 tlang1.sty
@@ -1952,7 +1914,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.11}).
 
-\symgns@font=\mathgroup9
+\symgns@font=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 6.
 Package gensymb Info: Math companion symbols declared on input line 6.
@@ -2030,36 +1992,6 @@ Package pageslts Warning: Package pdfpages detected.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c__siunitx_mathsf_int=\count330
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 6.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Try loading font information for U+wasy on input line 6.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -2111,41 +2043,51 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.30002pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
-The command '\includegraphics [width=2cm,trim = 15cm 15cm 20cm 15cm,clip,angle=
--90]{img/jacobm}' has been optimized away. Use '/tikz/external/optimize=false' 
-to disable this.
-The command '\includegraphics [width=2cm,trim = 15cm 15cm 20cm 15cm,clip,angle=
--90]{img/jagob}' has been optimized away. Use '/tikz/external/optimize=false' t
-o disable this.
-The command '\includegraphics [width=2cm,trim = 15cm 15cm 20cm 15cm,clip,angle=
--90]{img/miklas}' has been optimized away. Use '/tikz/external/optimize=false' 
-to disable this.
-The command '\includegraphics [width=2cm,trim = 15cm 15cm 20cm 15cm,clip,angle=
--90]{img/soeren}' has been optimized away. Use '/tikz/external/optimize=false' 
-to disable this.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
+The command '\includegraphics [width=1.35cm,trim = 7cm 0cm 5cm 0cm,clip,angle=0
+]{img/karl}' has been optimized away. Use '/tikz/external/optimize=false' to di
+sable this.
+The command '\includegraphics [width=1.38cm,trim = 5cm 0cm 5cm 0cm,clip,angle=0
+]{img/jakoba}' has been optimized away. Use '/tikz/external/optimize=false' to 
+disable this.
+The command '\includegraphics [width=1.38cm,trim = 0cm 0cm 0cm 0cm,clip,angle=0
+]{img/anders}' has been optimized away. Use '/tikz/external/optimize=false' to 
+disable this.
+The command '\includegraphics [width=1.38cm,trim = 0cm 0cm 0cm 0cm,clip,angle=0
+]{img/jacobm2}' has been optimized away. Use '/tikz/external/optimize=false' to
+ disable this.
 
-Overfull \hbox (423.0488pt too wide) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+
+ []
+
+
+Overfull \hbox (423.0488pt too wide) in paragraph at lines 75--75
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
 
-LaTeX Warning: Reference `LastPages' on page i undefined on input line 69.
+LaTeX Warning: Reference `LastPages' on page i undefined on input line 75.
 
 (./sec/etc/synopsis.tex)
-Overfull \hbox (4.67499pt too wide) in paragraph at lines 80--80
+Overfull \hbox (4.67499pt too wide) in paragraph at lines 86--86
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--82
+Underfull \hbox (badness 10000) in paragraph at lines 14--88
 
  []
 
@@ -2155,11 +2097,18 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 
-LaTeX Warning: Reference `pa:appendix' on page i undefined on input line 20.
+Package FiXme Warning: \fixme is deprecated;
+(FiXme)                please use \fxfatal instead on input line 20.
 
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.08852pt on input line 20.
+Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+line 20.
 
-LaTeX Warning: Reference `sec:appendix_cd' on page i undefined on input line 20
-.
+Package FiXme Warning: \fixme is deprecated;
+(FiXme)                please use \fxfatal instead on input line 20.
 
 The command '\includegraphics [height=9pt]{img/folder}' has been optimized away
 . Use '/tikz/external/optimize=false' to disable this.
@@ -2178,78 +2127,28 @@ Overfull \hbox (70.68062pt too wide) in paragraph at lines 20--20
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 Chapter 1.
-(./sec/int/matlabtikz.tex
-LaTeX Font Info:    Calculating math sizes for size <7.66495> on input line 5.
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4.59901> not available
-(Font)              size <5> substituted on input line 5.
-
-
-LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <4.59901> not available
-(Font)              size <5> substituted on input line 5.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.66495> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.67209> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <4.59901> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.59901> not available
-(Font)              size <5> substituted on input line 5.
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 23.
-
-LaTeX Warning: Reference `label1' on page 1 undefined on input line 31.
-
-\fheight=\skip89
-\fwidth=\skip90
-(./img/arrows.tex (./img/arrows.tikz
+(./sec/int/blockdiagra.tex (./img/blockdia.tex
+\du=\skip89
 \openout4 = `img/tikz/master-figure0.dpth'.
 
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 [2
 
 \reset@newl@bel
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])) (./im
-g/Automated_Sine_Plot.tex (./img/Automated_Sine_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Automated_Bar_Plot.tex (./img/Automated_Bar_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/meshgrid_test.tex (./img/meshgrid_test.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Surfc_Plot.tex (./img/Surfc_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/abc.tex (./img/abc.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Surf_Plot.tex (./img/Surf_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Surf_Plot_2.tex (./img/Surf_Plot_2.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Surfc_Plot.tex (./img/Surfc_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)) (./img/Contour_Plot.tex (./img/Contour_Plot.tikz
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)))
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]))
+Chapter 2.
+Chapter 3.
+Chapter 4.
+Chapter 5.
+Chapter 6.
 No file img/tikz/master-figure0.bbl.
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 51.
+
+
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 57.
 \c@pagesLTS.arabic.1.local.count=\count338
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2260,33 +2159,27 @@ AED: pageslts setting LastPages via AfterLastShipout
 Package pageslts Info: Total number of pages is odd.
 
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.48pt have occurred.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 49792 strings out of 493108
- 1172473 string characters out of 6134847
- 1422143 words of memory out of 5000000
- 52362 multiletter control sequences out of 15000+600000
- 122803 words of font info for 212 fonts, out of 8000000 for 9000
+ 48754 strings out of 493108
+ 1150675 string characters out of 6134847
+ 1392816 words of memory out of 5000000
+ 51402 multiletter control sequences out of 15000+600000
+ 66082 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,21n,96p,10481b,2214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,96p,10481b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on img/tikz/master-figure0.pdf (1 page, 27394 bytes).
+exlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on img/tikz/master-figure0.pdf (1 page, 7383 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  1 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

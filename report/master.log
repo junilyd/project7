@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  7 SEP 2014 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.22)  8 SEP 2014 20:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1938,6 +1938,13 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 ))
 (./master.aux
 \c@pagesLTS.roman.1.local.cnt=\count322
+
+
+LaTeX Warning: Label `pagesLTS.0' multiply defined.
+
+
+LaTeX Warning: Label `pagesLTS.0.local' multiply defined.
+
 \c@pagesLTS.arabic.1.local.cnt=\count323
 )
 \openout1 = `master.aux'.
@@ -2142,7 +2149,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 14.34242pt on input line 25.
 
-<img/frontpage.pdf, id=51, 355.59752pt x 245.12378pt>
+<img/frontpage.pdf, id=55, 355.59752pt x 245.12378pt>
 File: img/frontpage.pdf Graphic file (type pdf)
  <use img/frontpage.pdf>
 Package pdftex.def Info: img/frontpage.pdf used on input line 30.
@@ -2155,7 +2162,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (./sec/etc/titlepage.tex
 \titlepageleftcolumnwidth=\skip87
 \titlepagerightcolumnwidth=\skip88
- <img/aau_logo_en.pdf, id=52, 114.9896pt x 75.28125pt>
+ <img/aau_logo_en.pdf, id=56, 114.9896pt x 75.28125pt>
 File: img/aau_logo_en.pdf Graphic file (type pdf)
 
 <use img/aau_logo_en.pdf>
@@ -2169,25 +2176,25 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.30002pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
- <img/karl.png, id=54, 2457.18pt x 3082.51625pt>
+ <img/karl.png, id=58, 2457.18pt x 3082.51625pt>
 File: img/karl.png Graphic file (type png)
 
 <use img/karl.png>
 Package pdftex.def Info: img/karl.png used on input line 75.
 (pdftex.def)             Requested size: 38.41139pt x 55.92502pt.
- <img/jakoba.jpg, id=57, 2457.18pt x 3276.24pt>
+ <img/jakoba.jpg, id=61, 2457.18pt x 3276.24pt>
 File: img/jakoba.jpg Graphic file (type jpg)
 
 <use img/jakoba.jpg>
 Package pdftex.def Info: img/jakoba.jpg used on input line 75.
 (pdftex.def)             Requested size: 39.26494pt x 59.18973pt.
- <img/anders.jpg, id=59, 2457.18pt x 3290.2925pt>
+ <img/anders.jpg, id=63, 2457.18pt x 3290.2925pt>
 File: img/anders.jpg Graphic file (type jpg)
 
 <use img/anders.jpg>
 Package pdftex.def Info: img/anders.jpg used on input line 75.
 (pdftex.def)             Requested size: 39.26494pt x 52.56541pt.
- <img/jacobm2.png, id=61, 2457.18pt x 2457.18pt>
+ <img/jacobm2.png, id=65, 2457.18pt x 2457.18pt>
 File: img/jacobm2.png Graphic file (type png)
 
 <use img/jacobm2.png>
@@ -2249,7 +2256,7 @@ line 20.
 Package FiXme Warning: \fixme is deprecated;
 (FiXme)                please use \fxfatal instead on input line 20.
 
-<img/folder.pdf, id=98, 51.392pt x 51.392pt>
+<img/folder.pdf, id=102, 51.392pt x 51.392pt>
 File: img/folder.pdf Graphic file (type pdf)
  <use img/folder.pdf>
 Package pdftex.def Info: img/folder.pdf used on input line 20.
@@ -2289,9 +2296,25 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 
 ]
 Chapter 1.
-[2
+(./sec/int/blockdiagra.tex (./img/blockdia.tex
+\du=\skip89
+\openout3 = `img/tikz/master-figure0.md5'.
 
-]
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "img/tikz/master-figure0" "\def\tikzext
+ernalrealjob{master}\input{master}"' ========
+\openout3 = `master.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "img/tikz/master-figure0" "\def\tikzexternalrealjob{master}\input{master}")...
+executed.
+
+\openout3 = `master.auxlock'.
+
+)) [2
+
+ <./img/tikz/master-figure0.pdf>]
 Chapter 2.
 [3
 
@@ -2333,8 +2356,8 @@ AED: lastpage setting LastPage
 
 ] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 56.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 57.
 \c@pagesLTS.arabic.1.local.count=\count341
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2346,17 +2369,21 @@ Package pageslts Info: Total number of pages is even.
 
 
 (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 309FC84C43491EDC02C3057062B12003;636.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+(rerunfilecheck)             Checksum: AB9B6062B324FC44AB1A17009862FD36;700.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 48846 strings out of 493108
- 1151470 string characters out of 6134847
+ 48879 strings out of 493108
+ 1151935 string characters out of 6134847
  1395493 words of memory out of 5000000
- 51438 multiletter control sequences out of 15000+600000
+ 51458 multiletter control sequences out of 15000+600000
  80074 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,96p,10441b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2368,10 +2395,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on master.pdf (16 pages, 23799705 bytes).
+Output written on master.pdf (16 pages, 23802126 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 29 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
